@@ -1,0 +1,22 @@
+name = "Mattermost"
+uuid = "c9a394b0-b131-4b99-aeb4-b011b7b7f934"
+version = "0.1.0"
+authors = ["Jacob Quinn <jacob.quinn@cbtravel.com>"]
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+ScopedValues = "7e506255-f358-4e82-b7e4-beb19740aa63"
+
+[compat]
+HTTP = "1.10.19"
+JSON = "1.4.0"
+Logging = "1.11.0"
+ScopedValues = "1.5.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
