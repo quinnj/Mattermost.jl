@@ -10,7 +10,7 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 ScopedValues = "7e506255-f358-4e82-b7e4-beb19740aa63"
 
 [compat]
-HTTP = "1.10.19"
+HTTP = "2"
 JSON = "1.4.0"
 Logging = "1.11.0"
 ScopedValues = "1.5.0"
